@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  height: 100vh;
+  overflow: hidden; /* Чтобы фон не выходил за пределы экрана */
+}
+
+@font-face {
+  font-family: "RedHatMono";
+  src: url(../FONT/RedHatMono-Medium.ttf) format("truetype");
+  font-style: medium;
+  font-weight: 500;
+  }
+
+button{
+  position: absolute;
+  font-family: "RedHatMono", Arial, sans-serif;
+      font-weight: 500; 
+ font-size: 3.875rem;
+ letter-spacing: -6%;
+ border: 0px;
+ background: none;
+}
+.button1{
+  margin-left: 34%;
+  margin-top: 35%;
+}
+
+.button2{
+  margin-left: 29%;
+  margin-top: 17%;
+}
+
+section{
+  position: absolute;
+}
+
+.section1{
+  height: 63vh;
+  width: 40vw;
+  background-image: url('Vector.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 30%;
+  margin-top: 15%;
+}
+
+.section2{
+  height: 55vh;
+  width: 40vw;
+  background-image: url('Vector2.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-left: 32%;
+  margin-top: 17%;
+}
+
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
